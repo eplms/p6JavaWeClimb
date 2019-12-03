@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.emmanuel.plumas</groupId>
+  <artifactId>p6JavaWeClimb</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>p6JavaWeClimb</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <!--  ========================== -->
+  <!-- Liste des modules du projet -->
+  <!--  ========================== -->
+  <modules>
+    <module>p6JavaWeClimb-business</module>
+    <module>p6JavaWeClimb-consumer</module>
+    <module>p6JavaWeClimb-model</module>
+    <module>p6JavaWeClimb-webapp</module>
+  </modules>
+
+
+  <!-- ========================= -->
+  <!-- Gestion des Dépendances   -->
+  <!-- ========================= -->
+  <dependencyManagement>
+      <dependencies>
+      <!-- ======= -->
+      <!-- Modules -->
+      <!-- ======= -->
+        <dependency>
+            <groupId>com.emmanuel.plumas </groupId>
+            <artifactId>p6JavaWeClimb-webapp </artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.emmanuel.plumas </groupId>
+            <artifactId>p6JavaWeClimb-business </artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.emmanuel.plumas </groupId>
+            <artifactId>p6JavaWeClimb-consumer </artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.emmanuel.plumas </groupId>
+            <artifactId>p6JavaWeClimb-model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        
+        
+    <!--  ======================= -->
+    <!-- Résolution de l'erreur The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build 
+ Path -->    
+ 	<!-- ======================== -->
+        <dependency>
+        	<groupId>javax.servlet</groupId>
+    		<artifactId>servlet-api</artifactId>
+    		<version>2.5</version>
+        </dependency>
+        
+        
+      </dependencies>
+  </dependencyManagement>
+
+
+
+
+</project>

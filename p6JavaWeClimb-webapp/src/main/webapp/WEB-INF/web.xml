@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <!-- Description des servlets -->
+  <servlet>
+  	<servlet-name>Accueil</servlet-name>
+  	<servlet-class>com.emmanuel.plumas.servlets.Accueil</servlet-class>
+  </servlet>
+  
+  <!-- Mapping entre url et servlet appelée -->
+  <servlet-mapping>
+  	<servlet-name>Accueil</servlet-name>
+  	<url-pattern>/Accueil</url-pattern>
+  </servlet-mapping>
+</web-app>
