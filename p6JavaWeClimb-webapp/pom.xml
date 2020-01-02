@@ -23,7 +23,6 @@
   <!-- ========================= -->
   <!-- Gestion des Dépendances   -->
   <!-- ========================= -->
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
