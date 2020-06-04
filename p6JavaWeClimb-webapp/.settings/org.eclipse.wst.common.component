@@ -1,32 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-                            
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
     
     
     <wb-module deploy-name="p6JavaWeClimb-webapp">
-                                                        
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
         
         
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
-                                                        
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
         
         
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-                                                        
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                                                        
+        
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <dependent-module archiveName="p6JavaWeClimb-business-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/p6JavaWeClimb-business/p6JavaWeClimb-business">
             <dependency-type>uses</dependency-type>
         </dependent-module>
@@ -36,28 +75,60 @@
         <dependent-module archiveName="p6JavaWeClimb-model-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/p6JavaWeClimb-model/p6JavaWeClimb-model">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-                                                        
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
         
         
         <property name="context-root" value="p6JavaWeClimb-webapp"/>
-                                                        
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
         
         
         <property name="java-output-path" value="/p6JavaWeClimb-webapp/target/classes"/>
-                                                    
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
     
     
     </wb-module>
-                        
+                                                        
+
+
+
+
+
+
+
+
 
 
 

@@ -22,10 +22,9 @@ public class App
 	
 	public void test() {
 		ClassPathXmlApplicationContext context= new ClassPathXmlApplicationContext("applicationContext.xml");
-		repoUtilisateur=(IUserEntityRepository) context.getBean("IUserEntityRepository");
 		
 		//Objet optional gère un éventuel objet vide au lieu de null
-		Optional<UserEntity> user=repoUtilisateur.findById((long) 1);
+		Optional<UserEntity> user=repoUtilisateur.findById((long) 2);
 		//Méthode get() qui permet de récupérer le contenu d'un optionnal et getIdentifiant est défini dans la classe UserEntity
 		UserEntity u=user.get();
 		System.out.println(u.getIdentifiant());

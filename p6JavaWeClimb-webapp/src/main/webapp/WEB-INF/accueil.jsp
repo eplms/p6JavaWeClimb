@@ -8,5 +8,7 @@
 	</head>
 	<body>
 		<p> Bienvenue sur WeClimb </p>
+		<p>L'utilisateur est :</p>
+			<p>${u.identifiant}</p>
 	</body>
 </html>

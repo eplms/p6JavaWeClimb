@@ -1,1 +1,4 @@
+com/emmanuel/plumas/UserEntity.class
+com/emmanuel/plumas/AppConfig.class
 com/emmanuel/plumas/App.class
+com/emmanuel/plumas/IUserEntityRepository.class
